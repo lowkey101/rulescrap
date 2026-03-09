@@ -1,0 +1,32 @@
+{
+  "sources": [
+    {
+      "name": "Finance Department",
+      "seed_urls": [
+        "https://finance.rajasthan.gov.in/content/raj/finance/en/home.html",
+        "https://finance.rajasthan.gov.in/content/raj/finance/en/finance-department-order-circulars.html"
+      ],
+      "allowed_domains": ["finance.rajasthan.gov.in"],
+      "crawl_depth": 1,
+      "include_keywords": ["rule", "rules", "service", "pension", "allowance", "notification", "वेतन", "नियम"]
+    },
+    {
+      "name": "Department of Personnel",
+      "seed_urls": [
+        "https://dop.rajasthan.gov.in/content/raj/personnel/en/home.html"
+      ],
+      "allowed_domains": ["dop.rajasthan.gov.in"],
+      "crawl_depth": 1,
+      "include_keywords": ["rule", "rules", "service", "departmental", "promotion", "नियम"]
+    },
+    {
+      "name": "General Administration Department",
+      "seed_urls": [
+        "https://gad.rajasthan.gov.in/content/raj/gad/en/home.html"
+      ],
+      "allowed_domains": ["gad.rajasthan.gov.in"],
+      "crawl_depth": 1,
+      "include_keywords": ["rule", "rules", "act", "order", "notification", "नियम"]
+    }
+  ]
+}
